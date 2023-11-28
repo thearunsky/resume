@@ -241,5 +241,8 @@ ul {
     .rightHeader p {
         font-size: 0.8em;
     }
+    
+    .container {
+        width: 100%;
 
 }

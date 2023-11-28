@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-color: rgb(0, 92, 133);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 70%;
+    padding: 0px 25px;
+    display: flex;
+    justify-content: start;
+    /* flex-wrap: wrap; */
+}
+
+.left {
+    border: 2px solid white;
+    padding: 2%;
+    background-color: rgb(0, 92, 133);
+    color: white;
+    width: 20%;
+}
+
+
+.left img {
+    height: 150px;
+    width: 150px;
+    /* max-width: 100%;
+    max-height: 200px; */
+    border-radius: 50%;
+}
+
+
+.avatar {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    /* border: 1px solid red; */
+    margin: 20px 0px;
+
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact li:hover i {
+    color: rgb(92, 177, 214);
+    ;
+}
+
+.leftHeadings {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    /* text-decoration: underline; */
+}
+
+.individualContact {
+    margin-top: 5px;
+}
+
+.icon {
+    margin-right: 5px;
+
+}
+
+ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.bar {
+    width: 100%;
+}
+
+.dots {
+    margin: 0px;
+
+}
+
+.dot {
+    display: inline-block;
+    margin: 5px;
+    height: 12px;
+    width: 12px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: rgb(92, 177, 214);
+}
+
+.both {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hideYellow {
+    /* border: 1px solid white; */
+    background-color: white;
+}
+
+.right {
+    /* border: 1px solid red; */
+    width: 80%;
+    background-color: white;
+}
+
+.rightHeader {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    letter-spacing: 3px;
+
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+
+    position: sticky;
+    top: 0;
+}
+
+.right h2 {
+    color: rgb(0, 92, 133);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+.custom-hr {
+    height: 3px;
+    width: 25%;
+    background-color: #333;
+    margin: 10px auto;
+    border: none;
+}
+
+.about {
+    /* border: 1px solid green; */
+    margin: 1em;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin-left: 3em;
+}
+
+.exeperience {
+    /* border: 1px solid green; */
+    margin: 1em;
+}
+
+.exeperience ul {
+    list-style-type: disc;
+    margin-left: 3em;
+}
+
+.education {
+    /* border: 1px solid green; */
+    margin: 1em;
+}
+
+.education ul {
+    list-style-type: decimal;
+    margin-left: 3em;
+}
+
+.highSchool {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.projects {
+    /* border: 1px solid green; */
+    margin: 1em;
+}
+
+.pro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects ul {
+    list-style-type: disc;
+    margin-left: 3em;
+}
+
+
+@media screen and (max-width: 1610px) {
+
+    .left {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 1180px) {
+
+    .left {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .rightHeader h1 {
+        font-size: 1em;
+    }
+
+    .rightHeader p {
+        font-size: 0.8em;
+    }
+
+}
